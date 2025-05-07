@@ -44,3 +44,4 @@ appsettings.*.json
 
 # MacOS system files
 .DS_Store
+/.vs

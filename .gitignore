@@ -1,0 +1,46 @@
+# Ignore build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Logs
+*.log
+
+# Visual Studio Code settings
+.vscode/
+
+# Dependency directories
+node_modules/
+wwwroot/lib/
+
+# Publish output
+publish/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# Azure related files
+*.azure*
+
+# Database files
+*.mdf
+*.ldf
+
+# Configuration files
+appsettings.*.json
+!appsettings.json
+
+# Rider IDE files
+.idea/
+*.iml
+
+# MacOS system files
+.DS_Store

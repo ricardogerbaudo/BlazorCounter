@@ -18,11 +18,13 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
 app.UseAntiforgery();
 
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
+
+// Add the /health endpoint
+app.MapGet("/health", () => Results.Ok("Healthy"));
 
 app.Run();
